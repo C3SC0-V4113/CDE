@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EBF98C9-96DD-4963-8C98-62882D5AAFA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>frm_PantallaInicio</RootNamespace>
+    <AssemblyName>frm_PantallaInicio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Bienvenida.Designer.cs">
+      <DependentUpon>frm_Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BusquedaInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BusquedaInformes.Designer.cs">
+      <DependentUpon>frm_BusquedaInformes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EditarUsuario.Designer.cs">
+      <DependentUpon>frm_EditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Encargados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Encargados.Designer.cs">
+      <DependentUpon>frm_Encargados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar4_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar4_1.designer.cs">
+      <DependentUpon>frm_estandar4_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar4_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar4_2.designer.cs">
+      <DependentUpon>frm_estandar4_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar4_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar4_3.designer.cs">
+      <DependentUpon>frm_estandar4_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar3.designer.cs">
+      <DependentUpon>frm_estandar3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar5.designer.cs">
+      <DependentUpon>frm_estandar5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Creditos.Designer.cs">
+      <DependentUpon>frm_Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estandar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estandar2.designer.cs">
+      <DependentUpon>frm_estandar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_IniciodeSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_IniciodeSesion.Designer.cs">
+      <DependentUpon>frm_IniciodeSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_menu.Designer.cs">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PantallaInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PantallaInicio.Designer.cs">
+      <DependentUpon>frm_PantallaInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RegistrarIntitucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RegistrarIntitucion.Designer.cs">
+      <DependentUpon>frm_RegistrarIntitucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Estandar1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Estandar1.designer.cs">
+      <DependentUpon>frm_Estandar1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frm_RegistroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RegistroUsuario.Designer.cs">
+      <DependentUpon>frm_RegistroUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_Bienvenida.resx">
+      <DependentUpon>frm_Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BusquedaInformes.resx">
+      <DependentUpon>frm_BusquedaInformes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EditarUsuario.resx">
+      <DependentUpon>frm_EditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Encargados.resx">
+      <DependentUpon>frm_Encargados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar4_1.resx">
+      <DependentUpon>frm_estandar4_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar4_2.resx">
+      <DependentUpon>frm_estandar4_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar4_3.resx">
+      <DependentUpon>frm_estandar4_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar3.resx">
+      <DependentUpon>frm_estandar3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar5.resx">
+      <DependentUpon>frm_estandar5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Creditos.resx">
+      <DependentUpon>frm_Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estandar2.resx">
+      <DependentUpon>frm_estandar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_IniciodeSesion.resx">
+      <DependentUpon>frm_IniciodeSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_menu.resx">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PantallaInicio.resx">
+      <DependentUpon>frm_PantallaInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RegistrarIntitucion.resx">
+      <DependentUpon>frm_RegistrarIntitucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Estandar1.resx">
+      <DependentUpon>frm_Estandar1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frm_RegistroUsuario.resx">
+      <DependentUpon>frm_RegistroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaComun\CapaComun.csproj">
+      <Project>{3e197f45-c7cc-497f-94e3-e0ec7801ee23}</Project>
+      <Name>CapaComun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio\Dominio.csproj">
+      <Project>{ac69fbac-a256-4634-84db-a9649a0b1535}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
